@@ -3,9 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda de Tecnologia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h>Bienvenidos a Tecnologi</h>
     
+    <header class="header">
+        <div class="menu-container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu"></input>
+            <label for="menu">
+                <img  src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="intex.html">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactenos</a></li>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="registrase.html">Registrase</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito">Vaciar</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenidos </span>
+                <h1>Ofertas Especiales</h1>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Reprehenderit et similique dicta exercitationem, 
+                 amet molestiae libero facere commodi quia necessbus quae 
+                 doloribus ipsum quo nulla obcaecati unde. Nam, ea laboitatire?
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">informacion</a>
+                    <a href="#" class="btn-1">leer mas</a>
+                </div>
+            </div>  
+            <div class="header-img">
+                <img src="imagenes/audifonos.avif" alt="">
+            </div>
+        </div>
+    </header>
+    <section class="ofertts containes">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>Lorem ipsum dolorofficiis temporibus na</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/porta.jpg" alt="">
+            </div>
+
+            <div class="ofert-2 b1">
+            <div class="ofert-txt">
+                <h3>Lorem ipsum dolorofficiis temporibus na</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/porta2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-3 b1">
+            <div class="ofert-txt">
+                <h3>Lorem ipsum dolorofficiis temporibus na</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/porta3.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <main>
+        <h2>Productos</h2>
+        <div class="box">
+            <img src="imagenes/pro1.jpg" alt="">
+            <div class="product-txt">
+                <h3>audifonos</h3>
+                <p>caracteristicas</p>
+                <p class="precio">GRATIS!!</p>
+                <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar a carrito</a>
+            </div>
+            <div class="box">
+                <img src="imagenes/pro2.webp" alt="">
+                <div class="product-txt">
+                    <h3>iphone 14 pro</h3>
+                    <p>caracteristicas</p>
+                    <p class="precio">GRATIS!!</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar a carrito</a>
+                </div>
+                <div class="box">
+                    <img src="imagenes/pro3.png" alt="">
+                    <div class="product-txt">
+                        <h3>monitor</h3>
+                        <p>caracteristicas</p>
+                        <p class="precio">GRATIS!!</p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar a carrito</a>
+                    </div>
+        </div>
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+    </main>
+    
+    <section class="Reseñas">
+        <span>Reseñas</span>
+        <h2>opiniones</h2>
+        <div class="reseñas-content">
+            <div class="reseñas-1"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio est autem, praesentium deleniti veritatis numquam! Eaque enim quas omnis voluptatum cum.
+                Magnam rerum itaque earum expedita, sint quasi hic ea.</p>
+                <img src="imagenes/starts.png" alt="">
+                <h4>lorem impsum</h4>
+        </div>
+
+        <div class="reseñas-content">
+            <div class="reseñas-1"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio est autem, praesentium deleniti veritatis numquam! Eaque enim quas omnis voluptatum cum.
+                Magnam rerum itaque earum expedita, sint quasi hic ea.</p>
+                <img src="imagenes/starts.png" alt="">
+                <h4>lorem impsum</h4>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+        </div>
+        <div class="link">
+            <h3>lorem</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+    </div>
+    <div class="link">
+        <h3>lorem</h3>
+        <ul>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+        </ul>
+</div>
+
+
+        </div>
+
+    </footer>
+    <script src="scrip.js"></script>
 </body>
 </html>
+
