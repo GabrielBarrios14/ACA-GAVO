@@ -155,15 +155,20 @@ img{
    margin-bottom: 100px;
 }
 
- .header-img{
-    flex-basis: 50%;
-    text-align: center;
- }
+.header-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   
+}
+
 
  .header-img img {
-    height: 450px;
- }
-
+   height: 550px;
+   max-width: 200%;
+   object-fit: cover; 
+}
  .oferts {
     padding: 100px 0;
     display: flex;
