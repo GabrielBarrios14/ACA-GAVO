@@ -2,22 +2,73 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style-login.css">
 </head>
 <body>
-    <header>
-        <h1>Iniciar Sesión</h1>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="intex.html">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contáctenos</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="registrase.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <form id="login-form">
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
-            <button type="submit">Iniciar Sesión</button>
-        </form>
+    <main class="login-main container">
+        <div class="login-form-container">
+            <h1>Iniciar Sesión</h1>
+            <form id="login-form">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Iniciar Sesión</button>
+            </form>
+            <p>¿No tienes una cuenta? <a href="registrase.html">Regístrate aquí</a></p>
+        </div>
     </main>
-    <script src="js/main.js"></script>
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="scrip.js"></script>
 </body>
 </html>

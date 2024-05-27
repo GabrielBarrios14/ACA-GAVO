@@ -37,7 +37,7 @@ img{
 }
 .logo {
    font-size: 25px;
-   color: #1a73e8; /* Azul fuerte */
+   color: #1a73e8;
    text-transform: uppercase;
    font-weight: 800;
 }
@@ -266,7 +266,7 @@ img{
  .precio {
    font-size: 17px;
    font-weight: 700;
-   color: #f4511e !important; /* Naranja */
+   color: #f4511e !important;
 }
 
  .btn-2, .btn-3{
@@ -291,7 +291,7 @@ img{
    border-radius: 5px;
  }
 
- .testimonials {
+ .testimonial {
     padding: 100px 0;
     text-align: center;
 }
@@ -302,7 +302,7 @@ img{
     margin-top: 50px;
 }
 
-testimonial-1 {
+.testimonial-1 {
    flex-basis: calc(50% - 20px);
    padding: 50px;
    text-align: left;
